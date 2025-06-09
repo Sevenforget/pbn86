@@ -13,7 +13,7 @@ interface BlogPostPageProps {
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   try {
     // 현재 프로젝트의 도메인 가져오기
-    const communityUrl = "https://bizplayground.com"; // 하드코딩된 도메인 (pbn-domains.json 기반)
+    const communityUrl = "https://siremedia.net"; // 하드코딩된 도메인 (pbn-domains.json 기반)
 
     // slug를 그대로 id로 사용
     const { slug } = await params;
